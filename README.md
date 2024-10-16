@@ -16,3 +16,5 @@ python -m venv .venv
 .venv/bin/activate.bat
 pip install -r requirements.txt
 ```
+
+Делать бота будем с помощью библиотеки [python-telegram-bot](https://python-telegram-bot.org/) используя [Telegram Bot API](https://core.telegram.org/bots/api)
