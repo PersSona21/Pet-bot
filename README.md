@@ -1,20 +1,11 @@
+## **О проекте**
 python version **3.12.4**
-Чтобы установить все зависимости:
 
-Eсли unix:
+Основаная библиотека для работы бота [telebot](https://pytba.readthedocs.io/ru/latest/index.html) используя [Telegram Bot API](https://core.telegram.org/bots/api)
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+Рекомендуется создать вертуальное окружение для этого проекта
+
+Установить его с помощью pip:
 ```
-
-Если Windows:
-
-```cmd
-python -m venv .venv
-.venv/bin/activate.bat
-pip install -r requirements.txt
+pip install pyTelegramBotAPI
 ```
-
-Делать бота будем с помощью библиотеки [python-telegram-bot](https://python-telegram-bot.org/) используя [Telegram Bot API](https://core.telegram.org/bots/api)
